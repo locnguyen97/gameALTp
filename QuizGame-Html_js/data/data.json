@@ -1,0 +1,28 @@
+{
+	"listcauhoi": [
+		{
+			"Ques": "ai la 1",
+			"ans1": "acx",
+			"ans2": "acxx",
+			"ans3": "acxcc",
+			"ans4": "acxcxdf",
+			"correct": 1
+		},
+		{
+			"Ques": "ai la 2",
+			"ans1": "acx",
+			"ans2": "acx",
+			"ans3": "acx",
+			"ans4": "acx",
+			"correct": 2
+		},
+		{
+			"Ques": "ai la 3",
+			"ans1": "acx",
+			"ans2": "acx",
+			"ans3": "acx",
+			"ans4": "acx",
+			"correct": 3
+		}
+	]
+}

@@ -1,0 +1,56 @@
+
+<title>Quiz game ai là triệu phú  -  Lộc nguyễn </title>
+<link rel="stylesheet" type="text/css" href="Stylesheet.css">
+<h1><img src="https://lh3.googleusercontent.com/KRldvoXUwoedNyVx8ul4nIJlKp9Rdt7ciGhagDM1mOvRt8Zvada8FFd3izAecGr7638" width="200px" height="200px"></h1>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type='text/javascript' src="js/script.js"></script>
+ <h1>Ai là Triệu phú !</h1>
+
+<body>
+    <div id="top-start">
+        <button class="btn-start" id="btn-start">Start Game</button>
+    </div>
+    <div id="each-question" class="row">
+        <table>
+            <thead>
+                <tr>
+                    <div id="question"> <span id="question-number"></span>
+                        <span id="display-question"></span>
+                    </div>
+                <tr>
+            </thead>
+            <tbody id="sellector">
+                <tr>
+                    <td>
+                        <div id="boxA" class="box"></div>
+                    </td>
+                    <td>
+                        <div id="boxB" class="box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="boxC" class="box"></div>
+                    </td>
+                    <td>
+                        <div id="boxD" class="box"></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="form-group" id="board-button">
+            <button class="btn btn-info" id="submit-answer">Next</button>
+            <button class="btn btn-success" id="ignore-btn">Ingnor</button>
+        </div>
+        <div class="form-group" id="result-button">
+            <button class="btn btn-success" id="next-question">Next Question</button>
+            <button class="btn btn-danger" id="restart-game">Restart Game</button>
+        </div>
+        <div class="notice">
+            <div class="alert" id="alert"></div>
+        </div>
+    </div>
+    <br>  
+
+</body>
